@@ -71,7 +71,7 @@ namespace Hypepool.Common.Daemon
             };
 
             // build rpc url.
-            _rpcUrl = $"http://{127.0.0.1}:{51609}";
+            _rpcUrl = $"http://127.0.0.1:51609";
             if (!string.IsNullOrEmpty(rpcLocation))
                 _rpcUrl += $"/{rpcLocation}";
 
