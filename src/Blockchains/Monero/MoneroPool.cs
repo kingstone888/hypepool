@@ -68,7 +68,7 @@ namespace Hypepool.Monero
                 PoolContext = new MoneroPoolContext();
 
                 var miningDaemon = new DaemonClient("127.0.0.1", 28081, "user", "pass", MoneroConstants.DaemonRpcLocation);
-                var wallDaemon = new DaemonClient("127.0.0.1", 28085, "user", "pass", MoneroConstants.DaemonRpcLocation);
+                var wallDaemon = new DaemonClient("127.0.0.1", 51609, "user3325842430", "pass349aa034c990934e51b8197fe7d16a708b8e5c21effe7b7cf71aebb99c11d8cea2", MoneroConstants.DaemonRpcLocation);
                 var jobManager = new MoneroJobManager();
                 var stratumServer = ServerFactory.GetStratumServer();
 
