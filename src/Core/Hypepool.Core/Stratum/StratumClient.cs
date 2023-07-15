@@ -74,7 +74,7 @@ namespace Hypepool.Core.Stratum
 
         public StratumClient()
         {
-            _logger = Log.ForContext<StratumClient>().ForContext("Pool", "XMR");            
+            _logger = Log.ForContext<StratumClient>().ForContext("Pool", "ZEC");            
             _pooledLineBuffer = new PooledLineBuffer(MaxInboundRequestLength);
         }
 
