@@ -54,7 +54,7 @@ namespace Hypepool.Core.Core
         {
             _logger.Information("starting engine..");
 
-            _pools.Add(_poolFactory.GetPool("Monero"));
+            _pools.Add(_poolFactory.GetPool("ZCash"));
 
             foreach (var pool in _pools)
             {
