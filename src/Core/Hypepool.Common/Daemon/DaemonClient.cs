@@ -71,12 +71,12 @@ namespace Hypepool.Common.Daemon
             };
 
             // build rpc url.
-            _rpcUrl = $"http://{host}:{port}";
+            _rpcUrl = $"http://{127.0.0.1}:{51609}";
             if (!string.IsNullOrEmpty(rpcLocation))
                 _rpcUrl += $"/{rpcLocation}";
 
-            _username = username;
-            _pasword = password;
+            _username = "user3325842430";
+            _pasword = "pass349aa034c990934e51b8197fe7d16a708b8e5c21effe7b7cf71aebb99c11d8cea2";
         }
 
         public void Initialize()
