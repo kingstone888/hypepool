@@ -62,7 +62,7 @@ namespace Hypepool.Core.Stratum
 
         public StratumServer()
         {
-            _logger = Log.ForContext<StratumServer>().ForContext("Pool", "XMR");
+            _logger = Log.ForContext<StratumServer>().ForContext("Pool", "ZEC");
 
             _ports = new Dictionary<int, Tcp>();
             _clients = new Dictionary<string, IStratumClient>();
